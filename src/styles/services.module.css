@@ -1,0 +1,121 @@
+.servicesContainer {
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .createButton {
+    padding: 10px 20px;
+    background-color: #423a8e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .createButton:hover {
+    background-color: #362f77;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .cardTitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .cardDescription {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actionIcon {
+    color: #423a8e;
+    cursor: pointer;
+  }
+  
+  .actionIcon:hover {
+    color: #362f77;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .modalContent input,
+  .modalContent textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .modalContent button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .closeButton {
+    background-color: #423a8e;
+    color: white;
+  }
+  
+  .closeButton:hover,
+  .deleteButton:hover {
+    background-color: #362f77;
+  }
+  
